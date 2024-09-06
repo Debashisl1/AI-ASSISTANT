@@ -81,13 +81,8 @@ if __name__ == "__main__":
         elif 'open AWS' in query:
             webbrowser.open("https://aws.amazon.com/console/")
             
-        elif 'open code' in query:
-            codepath= "C:\\Users\\Aditya\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codepath)
-            
         elif 'open whatsapp' in query:
-            codepath= "C:\\Users\\Aditya\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\WhatsApp.exe"
-            os.startfile(codepath)     
+            webbrowser.open("https://web.whatsapp.com/")    
         
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
